@@ -17,8 +17,7 @@ libraryDependencies ++= Seq(
     "org.apache.spark" %% "spark-core"   % sparkVersion,
     "org.apache.spark" %% "spark-sql"    % sparkVersion,
 
-    "org.scalatest"    %% "scalatest"  % "2.2.1" % "test" withSources() withJavadoc(),
-    "org.scalacheck"   %% "scalacheck" % "1.12.1" % "test" withSources() withJavadoc()
+    "org.scalatest"    %% "scalatest"  % "2.2.1" % "test"
 )
 
 scalacOptions ++= Seq(
